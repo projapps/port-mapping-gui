@@ -1,0 +1,32 @@
+{
+  "n1": {
+    "label": "Node 1",
+    "targetSwitch": "s1",
+    "targetPort": "s1-01",
+    "classes": "server"
+  },
+  "n11": {
+    "label": "Node 11",
+    "targetSwitch": "s1",
+    "targetPort": "s1-11",
+    "classes": "server"
+  },
+  "n2": {
+    "label": "Node 2",
+    "targetSwitch": "s2",
+    "targetPort": "s2-01",
+    "classes": "server"
+  },
+  "n3": {
+    "label": "Node 3",
+    "targetSwitch": "s3",
+    "targetPort": "s3-01",
+    "classes": "server"
+  },
+  "n4": {
+    "label": "Node 4",
+    "targetSwitch": "s4",
+    "targetPort": "s4-01",
+    "classes": "server"
+  }
+}

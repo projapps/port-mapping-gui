@@ -1,0 +1,10 @@
+[
+  { group: "nodes", data: { id: "n1", label: "Node 1" } },
+  { group: "edges", data: { id: "s1-01", source: "n1", target: "s1" } },
+  { group: "nodes", data: { id: "n2", label: "Node 2" } },
+  { group: "edges", data: { id: "s2-01", source: "n2", target: "s2" } },
+  { group: "nodes", data: { id: "n3", label: "Node 3" } },
+  { group: "edges", data: { id: "s3-01", source: "n3", target: "s3" } },
+  { group: "nodes", data: { id: "n4", label: "Node 4" } },
+  { group: "edges", data: { id: "s4-01", source: "n4", target: "s4" } }
+]

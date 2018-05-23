@@ -1,0 +1,252 @@
+<style>
+    .dot {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: #808080;
+    }
+    #cy {
+        height: 85%;
+        display: block;
+    }
+</style>
+<div class="row">
+    <div class="col-sm-7">
+        <div id="cy"></div>
+    </div>
+    <div class="col-sm-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">Port Mappings (JSON)</div>
+            <div class="panel-body">
+                <div>
+                    <input type="file" accept=".json, application/json" file-reader="fileContent"/>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">Switch 1</div>
+            <div class="panel-body">
+                <span class="dot" id="s1-01"></span>
+                <span class="dot" id="s1-02"></span>
+                <span class="dot" id="s1-03"></span>
+                <span class="dot" id="s1-04"></span>
+                <span class="dot" id="s1-05"></span>
+                <span class="dot" id="s1-06"></span>
+                <span class="dot" id="s1-07"></span>
+                <span class="dot" id="s1-08"></span>
+                <span class="dot" id="s1-09"></span>
+                <span class="dot" id="s1-10"></span>
+                <span class="dot" id="s1-11"></span>
+                <span class="dot" id="s1-12"></span>
+                &nbsp;
+                <span class="dot" id="s1-13"></span>
+                <span class="dot" id="s1-14"></span>
+                <span class="dot" id="s1-15"></span>
+                <span class="dot" id="s1-16"></span>
+                <span class="dot" id="s1-17"></span>
+                <span class="dot" id="s1-18"></span>
+                <span class="dot" id="s1-19"></span>
+                <span class="dot" id="s1-20"></span>
+                <span class="dot" id="s1-21"></span>
+                <span class="dot" id="s1-22"></span>
+                <span class="dot" id="s1-23"></span>
+                <span class="dot" id="s1-24"></span>
+                <br/>
+                <span class="dot" id="s1-25"></span>
+                <span class="dot" id="s1-26"></span>
+                <span class="dot" id="s1-27"></span>
+                <span class="dot" id="s1-28"></span>
+                <span class="dot" id="s1-29"></span>
+                <span class="dot" id="s1-30"></span>
+                <span class="dot" id="s1-31"></span>
+                <span class="dot" id="s1-32"></span>
+                <span class="dot" id="s1-33"></span>
+                <span class="dot" id="s1-34"></span>
+                <span class="dot" id="s1-35"></span>
+                <span class="dot" id="s1-36"></span>
+                &nbsp;
+                <span class="dot" id="s1-37"></span>
+                <span class="dot" id="s1-38"></span>
+                <span class="dot" id="s1-39"></span>
+                <span class="dot" id="s1-40"></span>
+                <span class="dot" id="s1-41"></span>
+                <span class="dot" id="s1-42"></span>
+                <span class="dot" id="s1-43"></span>
+                <span class="dot" id="s1-44"></span>
+                <span class="dot" id="s1-45"></span>
+                <span class="dot" id="s1-46"></span>
+                <span class="dot" id="s1-47"></span>
+                <span class="dot" id="s1-48"></span>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">Switch 2</div>
+            <div class="panel-body">
+                <span class="dot" id="s2-01"></span>
+                <span class="dot" id="s2-02"></span>
+                <span class="dot" id="s2-03"></span>
+                <span class="dot" id="s2-04"></span>
+                <span class="dot" id="s2-05"></span>
+                <span class="dot" id="s2-06"></span>
+                <span class="dot" id="s2-07"></span>
+                <span class="dot" id="s2-08"></span>
+                <span class="dot" id="s2-09"></span>
+                <span class="dot" id="s2-10"></span>
+                <span class="dot" id="s2-11"></span>
+                <span class="dot" id="s2-12"></span>
+                &nbsp;
+                <span class="dot" id="s2-13"></span>
+                <span class="dot" id="s2-14"></span>
+                <span class="dot" id="s2-15"></span>
+                <span class="dot" id="s2-16"></span>
+                <span class="dot" id="s2-17"></span>
+                <span class="dot" id="s2-18"></span>
+                <span class="dot" id="s2-19"></span>
+                <span class="dot" id="s2-20"></span>
+                <span class="dot" id="s2-21"></span>
+                <span class="dot" id="s2-22"></span>
+                <span class="dot" id="s2-23"></span>
+                <span class="dot" id="s2-24"></span>
+                <br/>
+                <span class="dot" id="s2-25"></span>
+                <span class="dot" id="s2-26"></span>
+                <span class="dot" id="s2-27"></span>
+                <span class="dot" id="s2-28"></span>
+                <span class="dot" id="s2-29"></span>
+                <span class="dot" id="s2-30"></span>
+                <span class="dot" id="s2-31"></span>
+                <span class="dot" id="s2-32"></span>
+                <span class="dot" id="s2-33"></span>
+                <span class="dot" id="s2-34"></span>
+                <span class="dot" id="s2-35"></span>
+                <span class="dot" id="s2-36"></span>
+                &nbsp;
+                <span class="dot" id="s2-37"></span>
+                <span class="dot" id="s2-38"></span>
+                <span class="dot" id="s2-39"></span>
+                <span class="dot" id="s2-40"></span>
+                <span class="dot" id="s2-41"></span>
+                <span class="dot" id="s2-42"></span>
+                <span class="dot" id="s2-43"></span>
+                <span class="dot" id="s2-44"></span>
+                <span class="dot" id="s2-45"></span>
+                <span class="dot" id="s2-46"></span>
+                <span class="dot" id="s2-47"></span>
+                <span class="dot" id="s2-48"></span>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">Switch 3</div>
+            <div class="panel-body">
+                <span class="dot" id="s3-01"></span>
+                <span class="dot" id="s3-02"></span>
+                <span class="dot" id="s3-03"></span>
+                <span class="dot" id="s3-04"></span>
+                <span class="dot" id="s3-05"></span>
+                <span class="dot" id="s3-06"></span>
+                <span class="dot" id="s3-07"></span>
+                <span class="dot" id="s3-08"></span>
+                <span class="dot" id="s3-09"></span>
+                <span class="dot" id="s3-10"></span>
+                <span class="dot" id="s3-11"></span>
+                <span class="dot" id="s3-12"></span>
+                &nbsp;
+                <span class="dot" id="s3-13"></span>
+                <span class="dot" id="s3-14"></span>
+                <span class="dot" id="s3-15"></span>
+                <span class="dot" id="s3-16"></span>
+                <span class="dot" id="s3-17"></span>
+                <span class="dot" id="s3-18"></span>
+                <span class="dot" id="s3-19"></span>
+                <span class="dot" id="s3-20"></span>
+                <span class="dot" id="s3-21"></span>
+                <span class="dot" id="s3-22"></span>
+                <span class="dot" id="s3-23"></span>
+                <span class="dot" id="s3-24"></span>
+                <br/>
+                <span class="dot" id="s3-25"></span>
+                <span class="dot" id="s3-26"></span>
+                <span class="dot" id="s3-27"></span>
+                <span class="dot" id="s3-28"></span>
+                <span class="dot" id="s3-29"></span>
+                <span class="dot" id="s3-30"></span>
+                <span class="dot" id="s3-31"></span>
+                <span class="dot" id="s3-32"></span>
+                <span class="dot" id="s3-33"></span>
+                <span class="dot" id="s3-34"></span>
+                <span class="dot" id="s3-35"></span>
+                <span class="dot" id="s3-36"></span>
+                &nbsp;
+                <span class="dot" id="s3-37"></span>
+                <span class="dot" id="s3-38"></span>
+                <span class="dot" id="s3-39"></span>
+                <span class="dot" id="s3-40"></span>
+                <span class="dot" id="s3-41"></span>
+                <span class="dot" id="s3-42"></span>
+                <span class="dot" id="s3-43"></span>
+                <span class="dot" id="s3-44"></span>
+                <span class="dot" id="s3-45"></span>
+                <span class="dot" id="s3-46"></span>
+                <span class="dot" id="s3-47"></span>
+                <span class="dot" id="s3-48"></span>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">Switch 4</div>
+            <div class="panel-body">
+                <span class="dot" id="s4-01"></span>
+                <span class="dot" id="s4-02"></span>
+                <span class="dot" id="s4-03"></span>
+                <span class="dot" id="s4-04"></span>
+                <span class="dot" id="s4-05"></span>
+                <span class="dot" id="s4-06"></span>
+                <span class="dot" id="s4-07"></span>
+                <span class="dot" id="s4-08"></span>
+                <span class="dot" id="s4-09"></span>
+                <span class="dot" id="s4-10"></span>
+                <span class="dot" id="s4-11"></span>
+                <span class="dot" id="s4-12"></span>
+                &nbsp;
+                <span class="dot" id="s4-13"></span>
+                <span class="dot" id="s4-14"></span>
+                <span class="dot" id="s4-15"></span>
+                <span class="dot" id="s4-16"></span>
+                <span class="dot" id="s4-17"></span>
+                <span class="dot" id="s4-18"></span>
+                <span class="dot" id="s4-19"></span>
+                <span class="dot" id="s4-20"></span>
+                <span class="dot" id="s4-21"></span>
+                <span class="dot" id="s4-22"></span>
+                <span class="dot" id="s4-23"></span>
+                <span class="dot" id="s4-24"></span>
+                <br/>
+                <span class="dot" id="s4-25"></span>
+                <span class="dot" id="s4-26"></span>
+                <span class="dot" id="s4-27"></span>
+                <span class="dot" id="s4-28"></span>
+                <span class="dot" id="s4-29"></span>
+                <span class="dot" id="s4-30"></span>
+                <span class="dot" id="s4-31"></span>
+                <span class="dot" id="s4-32"></span>
+                <span class="dot" id="s4-33"></span>
+                <span class="dot" id="s4-34"></span>
+                <span class="dot" id="s4-35"></span>
+                <span class="dot" id="s4-36"></span>
+                &nbsp;
+                <span class="dot" id="s4-37"></span>
+                <span class="dot" id="s4-38"></span>
+                <span class="dot" id="s4-39"></span>
+                <span class="dot" id="s4-40"></span>
+                <span class="dot" id="s4-41"></span>
+                <span class="dot" id="s4-42"></span>
+                <span class="dot" id="s4-43"></span>
+                <span class="dot" id="s4-44"></span>
+                <span class="dot" id="s4-45"></span>
+                <span class="dot" id="s4-46"></span>
+                <span class="dot" id="s4-47"></span>
+                <span class="dot" id="s4-48"></span>
+            </div>
+        </div>
+    </div>
+</div>

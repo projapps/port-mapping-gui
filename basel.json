@@ -1,0 +1,6 @@
+{
+    "name": "port-mapping-gui",
+    "database": "database",
+    "title": "Port Mappings",
+    "type": "simple"
+}
